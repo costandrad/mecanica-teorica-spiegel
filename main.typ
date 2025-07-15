@@ -2,24 +2,16 @@
 #import "metadata.typ": *
 #import "config.typ": *
 
-//#set document(title: book-title, author: book-author)
-
-//#show: cover
-//#show: table-of-contents
-// 
-// 
-
-
 #show: project.with(
   // Informações gerais
   book: (
-    title: [Título do Livro],
-    author-long: [Nome Sobrenome; Outro Nome e Sobrenome],
-    author-short: [Sobrenome, N.; Sobrenome, O. N.],
+    title: [Mecânica Teórica],
+    author-long: [Murray R. Spiegel],
+    author-short: [Spiegel, M. R.],
   ),
   repo: [www.google.com],
   description: [Resolução comentada de problemas e exercícios],
-  main-color: rgb("#fc7e45"),
+  main-color: rgb("#3d9547"),
   author: (
     name: [Igo da Costa Andrade],
     website: [www.google.com],

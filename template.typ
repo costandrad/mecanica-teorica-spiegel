@@ -71,6 +71,7 @@
   show heading: set align(center)
   show heading: set text(fill: main-color)
 
+
   set page(
     header: context {
       let current-page = counter(page).get().at(0)
